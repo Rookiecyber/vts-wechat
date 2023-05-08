@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/bind/bind",
+    "pages/index/index",
+    "pages/message/message",
+    "pages/task/task",
+    "pages/task/taskInfo",
+    "pages/mine/mine",
+    "pages/login2/login2",
+    "pages/about/about",
+    "pages/mine/detail",
+    "pages/message/messageInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007aff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabbar/index0.png",
+        "selectedIconPath": "static/image/tabbar/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/image/tabbar/message0.png",
+        "selectedIconPath": "static/image/tabbar/message1.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "iconPath": "static/image/tabbar/task0.png",
+        "selectedIconPath": "static/image/tabbar/task1.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/image/tabbar/mine0.png",
+        "selectedIconPath": "static/image/tabbar/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "为了您更好的体验，需要获取您当前的位置"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "onLocationChange",
+    "startLocationUpdateBackground"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "VTS",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card"
+  }
+}
